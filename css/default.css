@@ -1,0 +1,45 @@
+body {
+  background-color: #99aab5;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.jumbotron {
+  background-color: #ffffff;
+  color: #2c2f33;
+}
+
+.navbar {
+  background-color: #23272a;
+}
+
+.card {
+  background-color: #7289da;
+  color: #ffffff;
+}
+
+.modal-content {
+  color: #23272a;
+}
+
+.card-btn {
+  background-color: #99aab5;
+  border-color: #99aab5;
+}
+
+.jumbotron-btn {
+  background-color: #99aab5;
+  border-color: #99aab5;
+  margin-bottom: 5px;
+
+}
+
+.jumbotron-btn: hover {
+  background-color: #7289da;
+  border-color: #7289da;
+
+}
+
+.card  {
+  margin-bottom: 10px;
+}

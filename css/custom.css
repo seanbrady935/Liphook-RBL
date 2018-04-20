@@ -1,0 +1,37 @@
+body {
+  background-color: #99aab5;
+}
+
+.jumbotron {
+  background-color: #ffffff;
+}
+
+.navbar {
+  background-color: #23272a;
+}
+
+.card {
+  background-color: #7289da;
+  color: #ffffff;
+}
+
+.modal-content {
+  color: #23272a;
+}
+
+.card-btn {
+  background-color: #99aab5;
+  border-color: #99aab5;
+}
+
+.jumbotron-btn {
+  background-color: #99aab5;
+  border-color: #99aab5;
+
+}
+
+.jumbotron-btn hover {
+  background-color: #7289da;
+  border-color: #7289da;
+
+}

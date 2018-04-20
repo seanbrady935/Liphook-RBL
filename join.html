@@ -4,10 +4,16 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta property="og:title" content="Liphook Royal British Legion" />
+    <meta property="og:site_name" content="Liphook Royal British Legion" />
+    <meta property="og:description" content="A community website of the Liphook sub branch of the Royal British Legion.  This is part of the Headly and District branch of the RBL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://liphookrbl.org/" />
+    <meta property="og:image" content="http://liphookrbl.org/images/RBL%201.resize.jpeg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <title>Liphook Royal British Legion - Join</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -22,7 +28,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Liphook Royal British Legion</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -52,40 +58,30 @@
           </div>
       </nav>
   <main>
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Liphook Royal British Legion</h1>
-          <p class="lead">To become a member of the Liphook Royal British Legion Sub Branch you must join the Royal British Legion on their main website.</p>
-          <p class="lead">During the online application process you given the option to join the Liphook Royal British Legion Sub Branch.  If you select this option we will be informed directly by the Royal British Legion Head Office and we will get in touch.  </p>
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#exampleModal">
-            Benefits of membership
-          </button>
 
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel"><strong>Benefits of membership</strong></h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                <p><strong>Comradeship.</strong> Build relationships and share experiences with like-minded people in one of our regional or national branches.</p>
-                <p><strong>Governance and representation.</strong> Vote on the issues we champion to support our Armed Forces community and shape the future of the Legion.</p>
-                <p><strong>Volunteering.</strong> Whether it’s fundraising, helping out at Remembrance events or getting involved with our welfare support - membership offers a variety of volunteering opportunities.</p>
-                <p>By becoming a member from just £17 a year, you will also receive an annual membership card, access to purchase members-only products from the Poppy Shop and regular communications including the Legion Magazine and e-newsletters </p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          </div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <img class="jumbotron-img" src="images/rbl-logo-222.png" alt="RBL Logo" width="111">
+        <h1 class="display-4">Liphook Royal British Legion</h1>
+        <p class="lead">The Liphook Branch of the Royal British Legion provides lifelong support for the Armed Forces community - serving men and women, veterans, and their families.</p>
+        <p><span><a class="jumbotron-btn btn btn-success btn-lg" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+  Benefits of membership</a></span>
+
+        <span><a class=" jumbotron-btn btn btn-success btn-lg" href="https://www.britishlegion.org.uk/" target="blank" role="button">Royal British Legion Website</a></span>
+
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <p><strong>Comradeship.</strong> Build relationships and share experiences with like-minded people in one of our regional or national branches.</p>
+          <p><strong>Governance and representation.</strong> Vote on the issues we champion to support our Armed Forces community and shape the future of the Legion.</p>
+          <p><strong>Volunteering.</strong> Whether it’s fundraising, helping out at Remembrance events or getting involved with our welfare support - membership offers a variety of volunteering opportunities.</p>
+          <p>By becoming a member from just £17 a year, you will also receive an annual membership card, access to purchase members-only products from the Poppy Shop and regular communications including the Legion Magazine and e-newsletters </p>
         </div>
+      </div>
+
+      </div>
+  </div>
+
     </div>
 
 <div class="container">
@@ -96,7 +92,7 @@
         <div class="card-body">
           <h3 class="card-title">Join online</h5>
           <p class="card-text">To become a member of the Liphook Royal British Legion Sub Branch follow this link to the Royal British Legion website. </p>
-          <a class="btn btn-primary" href="https://selfservice.britishlegion.org.uk/addmember/details?_ga=2.108469826.1118539266.1523637380-1261766496.1523637380" target="blank" role="button">Join here</a>
+          <a class="card-btn btn btn-success" href="https://selfservice.britishlegion.org.uk/addmember/details?_ga=2.108469826.1118539266.1523637380-1261766496.1523637380" target="blank" role="button">Join here</a>
         </div>
       </div>
     </div>
@@ -106,7 +102,7 @@
         <div class="card-body">
           <h3 class="card-title">Download application form</h5>
           <p class="card-text">If you can't use the online membership application form, download a hardcopy and send it in.</p>
-          <a class="btn btn-primary" href="https://media.britishlegion.org.uk/Media/5544/membership-application-form.pdf?_ga=2.108517826.1118539266.1523637380-1261766496.1523637380" target="blank" role="button">Download here</a>
+          <a class="card-btn btn btn-success" href="https://media.britishlegion.org.uk/Media/5544/membership-application-form.pdf?_ga=2.108517826.1118539266.1523637380-1261766496.1523637380" target="blank" role="button">Download here</a>
         </div>
       </div>
     </div>
@@ -123,13 +119,22 @@
 
   <footer class="footer">
     <br>
-   <div class="container-fluid">
-     <nav class="navbar navbar-light bg-light">
+
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Liphook Royal British Legion</a>
-      <span class="navbar-text">Copyright &copy; Liphook Royal British Legion 2018</span>
+      <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://tinyletter.com/Liphook_RBL" target="blank">Subscribe</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      Copyright &copy; Liphook Royal British Legion 2018
+    </span
+
     </nav>
-   </div>
- </footer>
+
+  </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
